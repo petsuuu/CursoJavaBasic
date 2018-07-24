@@ -23,4 +23,6 @@ public class Calculadora {
 		resultado = 0;
 	}
 
+	
+	// Teste
 }
