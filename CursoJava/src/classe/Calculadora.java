@@ -24,5 +24,5 @@ public class Calculadora {
 	}
 
 	
-	// Teste 1
+
 }
