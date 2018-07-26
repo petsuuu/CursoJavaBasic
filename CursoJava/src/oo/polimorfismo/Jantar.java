@@ -13,9 +13,8 @@ public class Jantar {
 		
 		
 		Pessoa pessoa = new Pessoa(80.7);
-		pessoa.comer(arroz);
-		pessoa.comer(feijao);
-		pessoa.comer(sorvete);
+		pessoa.comer(arroz,feijao ,sorvete);
+		
 	
 		System.out.println(pessoa.getPeso());
 	}

@@ -15,8 +15,12 @@ public class Pessoa {
 		return peso;
 	}
 
-	public void comer(Comida comida) {
-		this.peso += comida.getPeso();
+	public void comer(Comida... comidas) {
+		for(Comida c: comidas) {
+			this.peso += c.getPeso();
+			
+		}
+		
 	}
 
 }
